@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="head1">CLIMAX</h1>
+        <nav>
+            <a href="#search">Search</a>
+            <a href="#suggestions">Suggestions</a>
+            <a href="#subscription">Subscription</a>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <h2 id="head2">Search for a Movie</h2>
+            <form id="searchForm">
+                <input type="text" id="searchTerm" placeholder="Enter movie title" required>
+                <button type="submit">Search</button>
+            </form>
+            <div id="movieDetails"></div>
+        </section>
+        <section id="suggestions" >
+            <h2 id="moviesuggest">Movie Suggestions:</h2>
+            <ul id="suggestionList"></ul>
+        </section>
+        <section id="subscription">
+            <h2 id="head3"> {Subscription}</h2>
+            <h3 id="head4">Subscribe to view exclusive content and enjoy premium features!</h3>
+            <p class="para">(Watch the latest movies, TV shows, and CLIMAX Originals, included free with Prime membership)</p>
+            <button id="subscribeBtn">Subscribe Now</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; CLIMAX (2024).All rights are reserved .</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
